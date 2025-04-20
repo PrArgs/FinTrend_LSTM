@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment folders
+.env/
+.venv/
+env/
+venv/
+.DS_Store
+
+# TensorBoard logs
+runs/
+
+# Model weights
+*.pth
+*.h5
+
+# CSVs, images, and big files (if you don't want to track them)
+*.csv
+*.png
+*.jpg
+*.bin
+*.zip
+
+# Ignore large data files
+data/*.bin
+data/*.zip
+data/New folder/
+*.parquet
+all-files.txt
+New.txt
+stam.txt
+old.txt
+LSTM_bigrams_data_structured.txt
+f_word_embeddings_news_cols.txt
